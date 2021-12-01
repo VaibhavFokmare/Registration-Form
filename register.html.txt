@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+      <title>Regestration Form</title>
+      </head>
+<body><meata name="viewport" content="width=device-width ,initial-scale=1.0">
+
+
+<style>
+body{
+background-image: linear-gradient( 45deg,red,white,orange);;
+}
+
+label{
+width:100px;
+display:inline-block;
+}
+h1{
+
+color:red;
+
+width:150px;
+border:5px solid  blue;
+border-width:2px;
+box-shadow:0px 0px 10px green;
+margin:auto;
+background-color:white;
+padding: 10px;
+text-align:center;
+
+
+}
+p{
+color:red;
+text-align:center;
+padding: 10px;
+}
+
+form{
+background-color:pink;
+border:2px solid black;
+box-shadow:0px 0px 20px yellow;
+border-radius:2px;
+width:280px;
+
+
+
+margin:auto;
+padding:100px;
+
+}
+
+
+button{
+display:inline-block;
+box-shadow:0px 0px 20px red;
+}
+
+
+</style>
+
+
+    
+
+    
+    
+
+<div>  <h1 style="color:" red"="" width:100px="" border:20px="" solid="" blue;="" box-shadow:0px="" 0px="" 10px="" green"="">Register</h1><br>
+</div>
+<div>
+
+<form>
+<p style=" font-size:20px">Please fill this registration form.</p>
+<label>First Name:</label>
+
+<input type="text" name="First Name" placeholder="Enter First Name" required=""><br><br>
+<label>Last Name:</label>
+ <input type="text" name="First Name" placeholder="Enter Last Name" required=""><br><br>
+<label>Email-id:</label>
+ <input type="Email" name="Email-id" placeholder="Enter Email-id" required=""><br><br>
+
+
+<label>Password:</label>
+<input type="password" placeholder="Enter valid Password" required=""><br><br>
+<label>Confirm Password:</label>
+<input type="password" placeholder="Renter valid Password" required=""><br><br>
+
+<label>DOB:</label>
+<input type="date" placeholder="Enter DOB"><br><br>
+<label>Gender:</label>
+<select>
+<option value:"male"="">Male</option>
+<option value:"female"="">Female</option>
+<option value:"other"="">Other</option>
+</select><br><br>
+
+<button type="submit" value="Submit"> Submit</button>
+
+<button type="reset" value="reset">Reset</button>
+
+</form>
+</div>
+
+
+
+    
+</meata>
+</body>
+</html>
